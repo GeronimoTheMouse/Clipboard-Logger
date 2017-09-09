@@ -1,0 +1,17 @@
+C:\Users\Revolution\Documents\Visual Studio 2015\Projects\ClipboardManager\ClipboardLogger\bin\Debug\ClipboardManager.exe.config
+C:\Users\Revolution\Documents\Visual Studio 2015\Projects\ClipboardManager\ClipboardLogger\bin\Debug\ClipboardManager.exe
+C:\Users\Revolution\Documents\Visual Studio 2015\Projects\ClipboardManager\ClipboardLogger\bin\Debug\ClipboardManager.pdb
+C:\Users\Revolution\Documents\Visual Studio 2015\Projects\ClipboardManager\ClipboardLogger\bin\Debug\MvvmDialogs.dll
+C:\Users\Revolution\Documents\Visual Studio 2015\Projects\ClipboardManager\ClipboardLogger\bin\Debug\MvvmDialogs.xml
+C:\Users\Revolution\Documents\Visual Studio 2015\Projects\ClipboardManager\ClipboardLogger\obj\Debug\Clipboard Logger.csprojResolveAssemblyReference.cache
+C:\Users\Revolution\Documents\Visual Studio 2015\Projects\ClipboardManager\ClipboardLogger\obj\Debug\View\MainWindow.g.cs
+C:\Users\Revolution\Documents\Visual Studio 2015\Projects\ClipboardManager\ClipboardLogger\obj\Debug\App.g.cs
+C:\Users\Revolution\Documents\Visual Studio 2015\Projects\ClipboardManager\ClipboardLogger\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Revolution\Documents\Visual Studio 2015\Projects\ClipboardManager\ClipboardLogger\obj\Debug\ClipboardManager_MarkupCompile.cache
+C:\Users\Revolution\Documents\Visual Studio 2015\Projects\ClipboardManager\ClipboardLogger\obj\Debug\ClipboardManager_MarkupCompile.lref
+C:\Users\Revolution\Documents\Visual Studio 2015\Projects\ClipboardManager\ClipboardLogger\obj\Debug\View\MainWindow.baml
+C:\Users\Revolution\Documents\Visual Studio 2015\Projects\ClipboardManager\ClipboardLogger\obj\Debug\ClipboardManager.g.resources
+C:\Users\Revolution\Documents\Visual Studio 2015\Projects\ClipboardManager\ClipboardLogger\obj\Debug\ClipboardManager.Properties.Resources.resources
+C:\Users\Revolution\Documents\Visual Studio 2015\Projects\ClipboardManager\ClipboardLogger\obj\Debug\Clipboard Logger.csproj.GenerateResource.Cache
+C:\Users\Revolution\Documents\Visual Studio 2015\Projects\ClipboardManager\ClipboardLogger\obj\Debug\ClipboardManager.exe
+C:\Users\Revolution\Documents\Visual Studio 2015\Projects\ClipboardManager\ClipboardLogger\obj\Debug\ClipboardManager.pdb

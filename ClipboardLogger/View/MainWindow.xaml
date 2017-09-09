@@ -1,0 +1,62 @@
+﻿<Window x:Class="ClipboardManager.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClipboardManager"
+        xmlns:viewModel="clr-namespace:ClipboardManager.ViewModel.MainWindow"
+        xmlns:md="https://github.com/fantasticfiasco/mvvm-dialogs"
+        xmlns:view="clr-namespace:ClipboardManager.View"
+        md:DialogServiceViews.IsRegistered="True"
+        mc:Ignorable="d"
+        Title="Clipboard Logger" Width="573" Height="370" WindowStartupLocation="CenterScreen">
+
+    <Window.Resources>
+        <view:SelectedItemToBoolConverter x:Key="SelectedItemToBoolConverter"/>
+        <view:ClipboardElementsCountToBoolConverter x:Key="ClipboardElementsToBoolConverter"/>
+        <view:ColumnWidthConverter x:Key="ColumnWidthConverter"/>
+    </Window.Resources>
+
+    <Window.DataContext>
+        <viewModel:MainWindowViewModel/>
+    </Window.DataContext>
+
+    <Grid>
+        <ListView x:Name="ListView" SelectedItem="{Binding SelectedItem}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,26,0,0" ItemsSource="{Binding ClipboardElements, Mode=TwoWay}" SelectionMode="Single">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="ID" DisplayMemberBinding="{Binding ID}" Width="{Binding ActualWidth, Converter={StaticResource ColumnWidthConverter}, ElementName=ListView, Mode=OneWay}"/>
+                    <GridViewColumn Header="Content" DisplayMemberBinding="{Binding TextContent}" Width="{Binding ActualWidth, Converter={StaticResource ColumnWidthConverter}, ElementName=ListView, Mode=OneWay}"/>
+                    <GridViewColumn Header="Time" DisplayMemberBinding="{Binding TimeAndDate}" Width="{Binding ActualWidth, Converter={StaticResource ColumnWidthConverter}, ElementName=ListView, Mode=OneWay}"/>
+                </GridView>
+            </ListView.View>
+            <ListView.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Remove" Command="{Binding RemoveClipboardElementCommand}" IsEnabled="{Binding SelectedItem, Converter={StaticResource SelectedItemToBoolConverter}}"/>
+                    <MenuItem Header="Copy ID" Command="{Binding CopyClipboardElementIdCommand}" IsEnabled="{Binding SelectedItem, Converter={StaticResource SelectedItemToBoolConverter}}"/>
+                    <MenuItem Header="Copy Content" Command="{Binding CopyClipboardElementTextContentCommand}" IsEnabled="{Binding SelectedItem, Converter={StaticResource SelectedItemToBoolConverter}}"/>
+                    <MenuItem Header="Copy Time" Command="{Binding CopyClipboardElementTimeAndDateCommand}" IsEnabled="{Binding SelectedItem, Converter={StaticResource SelectedItemToBoolConverter}}"/>
+                </ContextMenu>
+            </ListView.ContextMenu>
+        </ListView>
+
+        <Menu HorizontalAlignment="Stretch" Height="26" VerticalAlignment="Top">
+            <MenuItem Header="File">
+                <MenuItem Header="Save All Data" Command="{Binding SaveClipboardDataCommand}" IsEnabled="{Binding ClipboardElements.Count, Converter={StaticResource ClipboardElementsToBoolConverter}}"/>
+                <MenuItem Header="Exit" Command="{Binding ExitEnvironmentCommand}"/>
+            </MenuItem>
+
+            <MenuItem Header="Edit">
+                <MenuItem Header="Clear Clipboard History" Command="{Binding ClearClipboardElementsCommand}"/>
+                <MenuItem Header="Clear Clipboard" Command="{Binding ClearClipboardCommand}"/>
+            </MenuItem>
+
+            <MenuItem Header="Options">
+                <MenuItem Header="Logg Clipboard" IsCheckable="True" IsChecked="{Binding LoggerIsOn}" />
+                <MenuItem Header="Add To Startup" IsCheckable="True" IsChecked="{Binding IsOnStartup}"/>
+            </MenuItem>
+
+            <MenuItem Header="About" Command="{Binding AboutDialogCommand}"/>
+        </Menu>
+    </Grid>
+</Window>

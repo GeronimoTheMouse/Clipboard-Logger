@@ -1,0 +1,17 @@
+C:\Users\Revolution\Documents\Visual Studio 2015\Projects\ClipboardManager\ClipboardManager\bin\Debug\ClipboardManager.exe.config
+C:\Users\Revolution\Documents\Visual Studio 2015\Projects\ClipboardManager\ClipboardManager\bin\Debug\ClipboardManager.exe
+C:\Users\Revolution\Documents\Visual Studio 2015\Projects\ClipboardManager\ClipboardManager\bin\Debug\ClipboardManager.pdb
+C:\Users\Revolution\Documents\Visual Studio 2015\Projects\ClipboardManager\ClipboardManager\obj\Debug\ClipboardManager.csprojResolveAssemblyReference.cache
+C:\Users\Revolution\Documents\Visual Studio 2015\Projects\ClipboardManager\ClipboardManager\obj\Debug\App.g.cs
+C:\Users\Revolution\Documents\Visual Studio 2015\Projects\ClipboardManager\ClipboardManager\obj\Debug\ClipboardManager_MarkupCompile.cache
+C:\Users\Revolution\Documents\Visual Studio 2015\Projects\ClipboardManager\ClipboardManager\obj\Debug\ClipboardManager_MarkupCompile.lref
+C:\Users\Revolution\Documents\Visual Studio 2015\Projects\ClipboardManager\ClipboardManager\obj\Debug\ClipboardManager.g.resources
+C:\Users\Revolution\Documents\Visual Studio 2015\Projects\ClipboardManager\ClipboardManager\obj\Debug\ClipboardManager.Properties.Resources.resources
+C:\Users\Revolution\Documents\Visual Studio 2015\Projects\ClipboardManager\ClipboardManager\obj\Debug\ClipboardManager.csproj.GenerateResource.Cache
+C:\Users\Revolution\Documents\Visual Studio 2015\Projects\ClipboardManager\ClipboardManager\obj\Debug\ClipboardManager.exe
+C:\Users\Revolution\Documents\Visual Studio 2015\Projects\ClipboardManager\ClipboardManager\obj\Debug\ClipboardManager.pdb
+C:\Users\Revolution\Documents\Visual Studio 2015\Projects\ClipboardManager\ClipboardManager\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Revolution\Documents\Visual Studio 2015\Projects\ClipboardManager\ClipboardManager\obj\Debug\View\MainWindow.g.cs
+C:\Users\Revolution\Documents\Visual Studio 2015\Projects\ClipboardManager\ClipboardManager\obj\Debug\View\MainWindow.baml
+C:\Users\Revolution\Documents\Visual Studio 2015\Projects\ClipboardManager\ClipboardManager\bin\Debug\MvvmDialogs.dll
+C:\Users\Revolution\Documents\Visual Studio 2015\Projects\ClipboardManager\ClipboardManager\bin\Debug\MvvmDialogs.xml
